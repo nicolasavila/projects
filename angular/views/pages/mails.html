@@ -1,0 +1,11 @@
+<section ng-controller="Mails">
+	<h2>Mails:</h2> {{ data.name }}
+	
+	<ul ng-repeat="dato in data">
+		<li>Nombre: {{ dato.name }}</li>
+		<li>Mail: <a href="#/detail/{{ dato.id }}" class="mail">{{ dato.mail }}</a></li>
+		<li>Edad: {{ dato.age }}</li>
+	</ul>
+	
+	<button ng-click="getMails()">Refresh</button>
+</section>
