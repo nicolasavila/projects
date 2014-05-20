@@ -1,0 +1,12 @@
+{
+  "name": "SMail test app",
+  "version": "0.0.1-B1",
+  "dependencies": {
+    "express": "2.x.x",
+    "mime": "~1.2.9"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
+}
